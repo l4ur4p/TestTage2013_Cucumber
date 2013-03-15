@@ -5,21 +5,21 @@
 ---------------------
 
 ### Vorbereitung
-Clonen Sie das Github Repository {git@github.com:remast/TestTage2013_Cucumber.git}.
+Clonen Sie das Github Repository `git@github.com:remast/TestTage2013_Cucumber.git`.
 Dort finden Sie den Code und die Instruktionen zur Übung.
 
 Öffnen Sie nun Eclipse.
 
 Importieren Sie dort das Projekt {cucumber.java-helloworld} aus dem Github Repository.
 Gehen Sie dazu auf "File > Import > Existing Projects into Workspace" und wählen Sie 
-dann das Verzeichnis {cucumber.java-helloworld} aus.
+dann das Verzeichnis `cucumber.java-helloworld` aus.
 
 Nun sind Sie bereit mit der Übung zu beginnen.
 
 ### Übungen
 
 #### Aufgabe 1: BDD Test ausführen
-Führen Sie die BDD Tests aus dem Beispielprojekt {cucumber.java-helloworld} aus. 
+Führen Sie die BDD Tests aus dem Beispielprojekt `cucumber.java-helloworld` aus. 
 Die Konfiguration hierfür ist bereits im Eclipse Projekt vorhanden.
 
 Führen Sie unter Eclipse die JUnit Launch Konfiguartion "RunCukesTest" aus.
