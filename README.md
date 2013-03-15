@@ -5,10 +5,34 @@
 ---------------------
 
 ### Vorbereitung
+Clonen Sie das Github Repository {git@github.com:remast/TestTage2013_Cucumber.git}.
+Dort finden Sie den Code und die Instruktionen zur Übung.
+
+Öffnen Sie nun Eclipse.
+
+Importieren Sie dort das Projekt {cucumber.java-helloworld} aus dem Github Repository.
+Gehen Sie dazu auf "File > Import > Existing Projects into Workspace" und wählen Sie 
+dann das Verzeichnis {cucumber.java-helloworld} aus.
+
+Nun sind Sie bereit mit der Übung zu beginnen.
 
 ### Übungen
 
 #### Aufgabe 1: BDD Test ausführen
+Führen Sie die BDD Tests aus dem Beispielprojekt {cucumber.java-helloworld} aus. 
+Die Konfiguration hierfür ist bereits im Eclipse Projekt vorhanden.
+
+Führen Sie unter Eclipse die JUnit Launch Konfiguartion "RunCukesTest" aus.
+Diese finden Sie im Menü "Run > RunCukesTest".
+
+Öffnen Sie die *.feature Datei mit den Szenarien. Schauen Sie sich die verschiedenen Szenarien an. 
+
+Verfolgen Sie die Ausführung des Scenarios. Gehen Sie folgenden Fragen nach:
+- Welche Klassen sind beteiligt?
+- Wo liegen die Step Definitions?
+- Wie werden Steps und Step Definitions zugeordnet?
+- Wie werden Parameter oder gar Tabellen übergeben?
+
 
 #### Aufgabe 2: Neues Scenario ausdenken
 Scenarios zu entwickeln ist Teamarbeit! Führen Sie diese Aufgabe also bitte mit einem Partner 
@@ -33,3 +57,11 @@ Gehen Sie dazu folgendermaßen vor:
 - Was ist passiert, d.h. schlagen die Tests fehl?
 - Ergänzen Sie nun nach und nach die Step Definitions für Ihr Scenario.
 - Schreiben Sie ebenfalls nach und nach den Code der Ihr Scenarion realisiert.
+
+#### Nächste Schritte
+Sind Sie auf den Geschmack gekommen und wollen noch mehr kennen lernen,
+so finden Sie hier Anregungen:
+- Wie können Tabellen in Scenarien verwendet werden.
+- Übergeben Sie Parameter. Fangen Sie mit einfachen Parametern an und Arbeiten
+  Sie sich bis zu Objekten vor.
+- Erzeugen Sie einen Report mit Cucumber JVM.
