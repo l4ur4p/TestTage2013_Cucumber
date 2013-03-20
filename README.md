@@ -8,9 +8,12 @@
 Clonen Sie das Github Repository `git@github.com:remast/TestTage2013_Cucumber.git`.
 Dort finden Sie den Code und die Instruktionen zur Übung.
 
+Alternativ können Sie das Repository auch als Zip-Archiv herunterladen:
+https://github.com/remast/TestTage2013_Cucumber/zipball/master
+
 Öffnen Sie nun Eclipse.
 
-Importieren Sie dort das Projekt {cucumber.java-helloworld} aus dem Github Repository.
+Importieren Sie dort das Projekt `cucumber.java-helloworld` aus dem Github Repository.
 Gehen Sie dazu auf "File > Import > Existing Projects into Workspace" und wählen Sie 
 dann das Verzeichnis `cucumber.java-helloworld` aus.
 
